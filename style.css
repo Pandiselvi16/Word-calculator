@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(163, 163, 9);
+    color:white;
+}
+
+.inner{
+    background-color:black;
+    height:50vh;
+    width:400px;
+    margin:200px auto;
+    padding:10px;
+}
+
+h2{
+    color:yellow;
+    text-align:center;
+    letter-spacing:1px;
+}
+
+textarea{
+    width:300px;
+    height:100px;
+    border-radius:10px;
+    padding:10px;
+    font-size:1.25em;
+}
+button{
+    padding:10px;
+    background-color:rgb(163,163,9);
+    border-radius:10px;
+    margin-top:20px;
+    font-size:1.15em;
+}
+.inner .textbox,.submit{
+    display:flex;
+    justify-content:center;
+}
+
+#result{
+    margin-top:20px;
+    font-size:1.5em;
+    text-align:center;
+}
