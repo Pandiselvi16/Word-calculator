@@ -4,5 +4,5 @@ function calci(){
     let string = content.split(' ');
     let length = string.length;
     let result = document.getElementById("result");
-    result.innerHTML = length + " words";
+    result.textContent = length + " words";
 }
